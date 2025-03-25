@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REVIEWS.io - Company & Product Review Collection</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <style>
+      .container {
+        border: 1px solid black;
+        background-color: lightgreen;
+        display: flex;
+        flex-direction: column;
+        padding: 0 32px;
+        height: 100vh;
+        margin: auto;
+      }
+
+      .navbar-wrapper {
+        border: 1px solid black;
+        background-color: lightcoral;
+        display: flex;
+        padding: 0 70.4px;
+      }
+
+      .left-nav {
+        /* flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 225px; */
+        flex: 0 0 225px;
+      }
+
+      .right-navbar {
+        flex: 1 1 auto;
+        display: flex;
+        margin-left: 24px;
+      }
+
+      .menu {
+        border: 1px solid black;
+        background-color: lightgreen;
+        flex: 5 1 auto;
+        list-style-type: none;
+      }
+
+      .menu-item {
+        text-align: center;
+        padding: 28px 40px 16px;
+        width: 15%;
+      }
+
+      .nav-spacing {
+        border: 1px solid black;
+        background-color: lightpink;
+        flex: 4 1 auto;
+      }
+
+      .nav-action {
+        border: 1px solid black;
+        background-color: lightcyan;
+        flex: 1 1 auto;
+      }
+
+      .hero-section {
+        border: 1px solid black;
+        background-color: lightgreen;
+      }
+
+      .sales {
+        border: 1px solid black;
+        background-color: lightcoral;
+      }
+
+      .feedback {
+        border: 1px solid black;
+        background-color: lightgreen;
+      }
+
+      .footer {
+        border: 1px solid black;
+        background-color: lightgrey;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar-wrapper">
+        <div class="left-navbar">
+          <img
+            width="200"
+            height="32"
+            src="https://cdn.prod.website-files.com/67dc35670f694bdd52f67da2/659e9e177e872a74bbf937af_reviewsio-logo.svg"
+          />
+        </div>
+        <div class="right-navbar">
+          <ul class="menu">
+            <li class="menu-item">Menu Item</li>
+            <li class="menu-item">Menu Item</li>
+            <li class="menu-item">Menu Item</li>
+            <li class="menu-item">Menu Item</li>
+          </ul>
+          <div class="nav-spacing">Nav Spacing</div>
+          <div class="nav-action">Nav Action</div>
+        </div>
+      </div>
+
+      <div class="hero-section">Hero Section</div>
+      <div class="sales">Sales</div>
+      <div class="feedback">Feedback</div>
+      <div class="footer">Footer</div>
+    </div>
+  </body>
 </html>
